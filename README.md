@@ -58,7 +58,7 @@ Back-end desenvolvido para apresentação dos meus conhecimentos técnicos.
 # ATENÇÃO
   $ EXECUTE ANTES O [Back-end](https://github.com/vaga-simbiose/back-end.git)
  ## Usuario e senha para acessar o sistema:
- test@test.com
+ teste@test.com
  senha: 1234
 
 ## :memo: Licença
