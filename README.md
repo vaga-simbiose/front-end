@@ -23,7 +23,7 @@ Back-end desenvolvido para apresentação dos meus conhecimentos técnicos.
 
 ## :rocket: Tecnologias
 
--  [Node.js](https://nodejs.org/en/)
+-  [React.js](https://pt-br.reactjs.org/)
 -  [Material UI](https://mui.com/pt/)
 -  [Axios](https://www.npmjs.com/package/axios)
 
