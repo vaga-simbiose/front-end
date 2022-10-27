@@ -18,7 +18,7 @@
 
 ## :bookmark: Sobre
 
-Back-end desenvolvido para apresentação dos meus conhecimentos técnicos.
+Front-end desenvolvido para apresentação dos meus conhecimentos técnicos.
   
 
 ## :rocket: Tecnologias
