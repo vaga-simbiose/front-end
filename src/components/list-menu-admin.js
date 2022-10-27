@@ -5,7 +5,9 @@ import ListItemText from '@mui/material/ListItemText';
 import ListSubheader from '@mui/material/ListSubheader';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import PeopleIcon from '@mui/icons-material/People';
-import LogoutIcon from '@mui/icons-material/Logout';
+import PostAddIcon from '@mui/icons-material/PostAdd';
+import api from '../services/api';
+import { getToken, logout } from '../services/auth';
 
 export const mainListItems = (
   <React.Fragment>
@@ -29,11 +31,12 @@ export const secondaryListItems = (
     <ListSubheader component="div" inset>
       Opções
     </ListSubheader>
-    <ListItemButton>
+    <ListItemButton componen="a" href="/admin/pessoas/cadastrar">
       <ListItemIcon>
-        <LogoutIcon />
+        <PostAddIcon />
       </ListItemIcon>
-      <ListItemText primary="Sair" />
+      <ListItemText primary="Cadastrar" />
     </ListItemButton>
   </React.Fragment>
 );
+

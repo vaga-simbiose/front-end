@@ -1,66 +1,70 @@
-<h1 align="center">
-    <img alt="simbiose" src="https://media-exp1.licdn.com/dms/image/C4D0BAQE-3EnKDVW-_w/company-logo_200_200/0/1580782652276?e=1674691200&v=beta&t=lLt9OzTkVHDurhBQMx6aLmOawxM90xqvRFMEq-ksL0g" height="100px" />
-    <br>Front-end Simbiose<br/>
-    React.js | Material UI | Axios
-</h1>
+# Getting Started with Create React App
 
-<p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vaga-simbiose/back-end?style=flat-square">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vaga-simbiose/back-end?style=flat-square">
-  <img alt="GitHub" src="https://img.shields.io/github/license/HigorSnt/proffy?style=flat-square"> 
-</p>
-<p align="center">
-  <a href="#bookmark-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#boom-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## :bookmark: Sobre
+## Available Scripts
 
-Front-end desenvolvido para apresentação dos meus conhecimentos técnicos.
-  
+In the project directory, you can run:
 
-## :rocket: Tecnologias
+### `npm start`
 
--  [Node.js](https://nodejs.org/en/)
--  [Material UI](https://mui.com/pt/)
--  [Axios](https://www.npmjs.com/package/axios)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## :boom: Como Executar
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- ### **Pré-requisitos**
+### `npm test`
 
-  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado no computador
-  - É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador
-  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. Faça um clone do repositório:
+### `npm run build`
 
-```sh
-  $ git clone https://github.com/vaga-simbiose/front-end.git
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-2. Executando a Aplicação:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```sh
-  # Front-end
-  $ Abra um terminal na raiz do projeto
-  # Instalando as dependências do projeto.
-  $ yarn # ou npm install
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-  # Inicie a o Front-end
-  $ yarn start # ou npm start
-  
-  
-```
+### `npm run eject`
 
-# ATENÇÃO
-  $ EXECUTE ANTES O [Back-end](https://github.com/vaga-simbiose/back-end.git)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## :memo: Licença
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
-<sup>Projeto desenvolvido por @santiagoidu </sup>
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

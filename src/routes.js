@@ -12,19 +12,21 @@ import Login from './pages/admin/login'
 // imports Client
 import Home from "./pages/client/home"
 
+import PrivateRoute from './services/wAuth'
+
 export default function Routes(){
     return(
         <BrowserRouter>
             <Switch>
                 {/* Rota Client */}
-                <Route path="/" exact component={Home} />
+                <Route path="/" exact component={Login} />
                 
                 {/* Rota Admin */}
-                <Route path="/admin" exact component={Dashboard} />
+                <PrivateRoute path="/admin" exact component={Dashboard} />
                 <Route path="/admin/login" exact component={Login} />
-                <Route path="/admin/pessoas" exact component={Pessoas} />
+                <PrivateRoute path="/admin/pessoas" exact component={Pessoas} />
                 <Route path="/admin/pessoas/cadastrar" exact component={PessoasCadastrar} />
-                <Route path="/admin/pessoas/editar/:_id" component={PessoasEditar} />
+                <PrivateRoute path="/admin/pessoas/editar/:_id" component={PessoasEditar} />
             </Switch>
         </BrowserRouter>
     )
